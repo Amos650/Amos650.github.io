@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device, initial-scale=1.0">
+        <title>Book a Tutor</title>
+        <link rel="stylesheet" href="Become.css">
+    </head>
+    <body>
+        <header>
+            <div class="navbar">
+                <button class="home-button" id="Home" onclick="goToPage('Home.html')">Home</button>
+    
+                <div class="dropdown">
+    
+                    <button class="dropbtn">&#8801;</button>
+                    <div class="dropdown-content other-buttons">
+                        <button class="right-buttons" onclick="goToPage('BookApp.html')">Book a Tutor</a>
+                        <button class="right-buttons"  onclick="goToPage('Become.html')">Become a Tutor</button>
+                        <button class="right-buttons" onclick="goToPage('#contact-info')">Contact Us</button>
+                    </div>
+                    
+                </div>
+            </div>
+        </header>
+        <div class="content">
+            <form action="#" method="post">
+                <label for="Name">Name & Surname</label>
+                <input type="text" id="Name" name="Name" class="form-contents" required>
+                <br>
+    
+                <label for="Email">Email</label>
+                <input type="email" id="Email" name="Email" class="form-contents" required>
+                <br>
+
+                <label for="Course">Course Code</label>
+                <input type="text" id="Course" name="Course" class="form-contents">
+                <br>
+    
+                <label for="Date">Preferred Date</label>
+                <input type="date" id="Date" name="Date" class="form-contents">
+                <br>
+    
+                <label for="Time">Preferred Time</label>
+                <input type="time" id="Time" name="Time" class="form-contents">
+                <br>
+
+                <label for="Motivation">Any Special Requests?</label>
+                <textarea id="Motivation" name="Message" rows="4" class="form-contents"></textarea>
+                <br>
+    
+                <button type="submit">Book appointment</button>
+    
+            </form>
+    
+            <div class="Welcome">
+                <h2 style="text-align: center; font-size: 30px;">Welcome!</h2>
+                <p>Thank you for choosing ApexMinds. We look forward to being part of your educational journey!</p>
+                <p>Please fill out the form to schedule your appointment.Please note that all sessions will take place at the UCT main campus. If you prefer tutoring at a different location, a travel fee of R100 will apply.</p>
+            </div>
+        </div>
+
+        <footer id="contact-info">
+            <div class="contact-info">
+                <p>Contact us: mngamo004@myuct.ac.za | (+27) 731761057</p>
+                <p>95 Main Rd, Cape Town, South Africa</p>
+            </div>
+    
+            <div class="copy-right">
+                <p>CopyRight &copy; 2023 ApexMinds. All rights reserved.</p>
+            </div>
+        </footer>
+    </body>
+    <script>
+        function goToPage(page){
+            window.location.href = page;
+        }
+    </script>
+</html>
