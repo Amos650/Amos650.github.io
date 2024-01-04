@@ -139,6 +139,7 @@ body {
     p{
         font-size: small !important;
         text-align: center !important;
+        font-weight: bolder;
     }
     h1{
         font-size: medium;
