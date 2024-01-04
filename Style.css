@@ -137,13 +137,13 @@ body {
         transform: scale(1.1);
     }
 
-    p, .list{
+    .foot, .long{
         font-size: small !important;
         text-align: center !important;
         font-weight: bolder !important;
     }
 
-    .long {
+    .list {
         font-size: small;
         font-weight: bolder;
     }
