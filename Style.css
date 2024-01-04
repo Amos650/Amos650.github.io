@@ -146,6 +146,7 @@ body {
     .list {
         font-size: small;
         font-weight: bolder;
+        text-align: left !important;
     }
     h1{
         font-size: medium;
