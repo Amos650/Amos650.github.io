@@ -52,7 +52,8 @@ body {
 @media screen and (max-width:850px){
 
     .background-container{
-        height: 30em;
+        height: 25em;
+        background-size: cover;
     }
 
     .dropbtn{
@@ -136,10 +137,15 @@ body {
         transform: scale(1.1);
     }
 
-    p{
+    p, .list{
         font-size: small !important;
         text-align: center !important;
         font-weight: bolder !important;
+    }
+
+    .long {
+        font-size: small;
+        font-weight: bolder;
     }
     h1{
         font-size: medium;
@@ -157,7 +163,7 @@ body {
         
     }
 }
-.long {
+.long, .list {
     font-size: 20px;
     line-height: 1.8;
     letter-spacing: 3px;
