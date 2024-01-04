@@ -144,8 +144,8 @@ body {
     }
 
     .list {
-        font-size: small;
-        font-weight: bolder;
+        font-size: small !important;
+        font-weight: bolder !important;
         text-align: left !important;
     }
     h1{
